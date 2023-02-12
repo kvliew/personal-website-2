@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+}
+
+a {
+  color: black;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: rgb(37, 118, 118);
+  padding: 25px;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar a {
+  color: white;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(179, 152, 197);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 30px;
+  flex-grow: 2;
+}
+
+.blurb p {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.photo-sec {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.photo-sec img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.socials {
+  display: flex;
+  margin-top: 30px;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+.hero a {
+  color: black;
+}
+
+/* About Section */
+.about {
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.skills-grid {
+  display: flex;
+}
+
+.skills-grid p {
+  /* border-style: solid; */
+  background-color: rgb(175, 145, 227);
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Projects Section */
+.projects {
+  background: white;
+  padding: 50px;
+}
+
+.project-card {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.screenshot {
+  width: 300px;
+  height: 200px;
+  background-color: pink;
+  margin-right: 30px;
+}
+
+/* Skills Section */
+.skills {
+  background: rgb(24, 55, 60);
+  padding: 50px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px;
+  background-color: rgb(37, 118, 118);
+}
