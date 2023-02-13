@@ -7,8 +7,8 @@
   font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 15px;
+p {
+  margin-top: 15px;
 }
 
 a {
@@ -23,6 +23,7 @@ a {
 
 .nav-bar ul {
   display: flex;
+  align-items: center;
 }
 
 .nav-bar a {
@@ -38,8 +39,7 @@ a {
 /* Hero Section */
 .hero {
   display: flex;
-  background-color: white;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 100px;
 }
 
