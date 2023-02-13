@@ -200,6 +200,7 @@ h1, h2 {
 
 .project-card {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -221,6 +222,15 @@ h1, h2 {
 .contact {
   padding: 50px;
   background-color: rgb(37, 118, 118);
+}
+
+/* Footer */
+footer {
+  color: white;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,29,215,1) 100%, rgba(10,10,102,0.738532913165266) 100%);
+  padding: 20px 50px 20px 50px;
+  font-family: 'Source Code Pro';
 }
 
 @media screen and (max-width: 600px) {
