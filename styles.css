@@ -146,13 +146,15 @@ h1, h2 {
 }
 .photo-sec {
   display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo-sec img {
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
+  border-style: ridge;
+  border-color: white;
 }
 
 .socials {
