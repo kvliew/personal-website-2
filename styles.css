@@ -59,7 +59,7 @@ h1, h2 {
 /* Hero Section */
 .hero {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   padding: 100px;
   height: 600px;
   background-color: black;
@@ -145,6 +145,7 @@ h1, h2 {
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
+
 .photo-sec {
   display: flex;
   justify-content: center;
@@ -181,6 +182,7 @@ h1, h2 {
 
 .skills-grid {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills-grid p {
@@ -219,4 +221,19 @@ h1, h2 {
 .contact {
   padding: 50px;
   background-color: rgb(37, 118, 118);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar h1 {
+    display: none;
+  }
+  .blurb h1, h2 {
+    font-size: medium;
+  }
+  .nav-bar a {
+    margin-left: 0;
+  }
+  .hero {
+    padding: 50px;
+  }
 }
