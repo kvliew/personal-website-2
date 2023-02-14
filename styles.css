@@ -283,20 +283,21 @@ h1, h2 {
   color: white;
 }
 
-.form-wrapper input {
+.form-wrapper input, textarea {
   width: 60vw;
   margin: 5px 0px 20px 0px;
   border-radius: 10px;
-  padding: 10px;
   font-size: medium;
+  padding: 10px;
 }
 
-#field-1, #field-2 {
+.form-wrapper input {
   height: 40px;
 }
 
-#field-3 {
+textarea {
   height: 150px;
+  resize: none;
 }
 
 .contact button {
