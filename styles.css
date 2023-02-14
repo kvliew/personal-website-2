@@ -279,7 +279,7 @@ h1, h2 {
   flex-direction: column;
 }
 
-.form-wrapper p {
+.contact p {
   color: white;
 }
 
@@ -351,12 +351,12 @@ footer a:hover {
     flex-direction: column;
   }
   .photo-sec {
-    margin-left: 0;
+    margin-left: 20px;
   }
   .photo-sec img {
     width: 250px;
   }
   .about-wrapper {
-    width: 250px;
+    width: 300px;
   }
 }
