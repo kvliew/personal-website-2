@@ -266,8 +266,48 @@ h1, h2 {
 /* Contact Section */
 .contact {
   padding: 50px;
-  background-color: rgb(88, 83, 134);
+  background-color: rgb(43, 40, 80);
 }
+
+.contact h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper p {
+  color: white;
+}
+
+.form-wrapper input {
+  width: 60vw;
+  margin: 5px 0px 20px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: medium;
+}
+
+#field-1, #field-2 {
+  height: 40px;
+}
+
+#field-3 {
+  height: 150px;
+}
+
+.contact button {
+  padding: 10px;
+  font-family: 'Source Code Pro';
+  color: white;
+  border-style: groove;
+  background-color: rgb(29, 58, 138, 50%);
+  font-size: larger;
+}
+
 
 /* Footer */
 footer {
