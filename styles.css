@@ -307,6 +307,7 @@ textarea {
   border-style: groove;
   background-color: rgb(29, 58, 138, 50%);
   font-size: larger;
+  border-radius: 10px;
 }
 
 
