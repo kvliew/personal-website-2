@@ -9,6 +9,7 @@
   list-style: none;
   text-decoration: none;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -61,7 +62,8 @@ h1, h2 {
   flex-wrap: wrap-reverse;
   padding: 100px;
   height: 600px;
-  background-color: rgb(27, 8, 72);
+  /* background-color: rgb(27, 8, 72); */
+  background-color: black;
 }
 
 .blurb {
@@ -150,6 +152,18 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo-sec a {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: hsl(234, 79%, 80%);
+  font-family: 'Source Code Pro';
+}
+.photo-sec a:hover {
+  background-color: pink;
 }
 
 .photo-sec img {
