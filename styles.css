@@ -159,11 +159,12 @@ h1, h2 {
 .photo-sec a {
   padding: 10px;
   border-radius: 30px;
+  border-style: groove;
   background-color: hsl(234, 79%, 80%);
   font-family: 'Source Code Pro';
 }
 .photo-sec a:hover {
-  background-color: pink;
+  border-color: white;
 }
 
 .photo-sec img {
