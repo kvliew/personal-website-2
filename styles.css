@@ -60,6 +60,7 @@ h1, h2 {
 .hero {
   display: flex;
   flex-wrap: wrap-reverse;
+  justify-content: center;
   padding: 100px;
   height: 600px;
   /* background-color: rgb(27, 8, 72); */
