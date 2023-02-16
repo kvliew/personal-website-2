@@ -234,6 +234,10 @@ h1, h2 {
   color: white;
 }
 
+.project-blurb p {
+  margin-top: 10px;
+}
+
 .projects {
   color: white;
   padding: 20px 50px;
