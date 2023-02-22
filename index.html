@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Khin Liew</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khin Liew</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Hi, I'm Khin Liew, Melbourne based Web Developer. I build websites that solve problems.">
+  <meta name=”robots” content="index, follow">
 
+  <link rel="canonical" href="https://www.kvliew.com/">
+  <link rel="stylesheet" href="styles.css">
   <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> -->
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -14,9 +17,10 @@
 
   <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
 </head>
+
 <body>
   <!-- Navigation Bar -->
-  <div class="nav-bar">
+  <nav class="nav-bar">
     <h1 style="color:white"><a href="https://kvliew.com">khin_liew</a></h1>
     <ul>
       <li><a href="Resume.pdf" target="_blank">Resume</a></li>
@@ -24,28 +28,32 @@
       <li><a href="mailto:liewkv1@gmail.com">Email</a></li>
       <li><a href="https://github.com/kvliew" target="_blank">GitHub</a></li>
     </ul>
-  </div>
+  </nav>
+
+  <main>
+
+  
 
   <!-- Hero Section -->
-  <div class="hero">
+  <section class="hero">
     <div class="blurb">
       <h1>Hello! I'm Khin Liew.</h1>
       <div class="rotating-headline">
         <span><h2>Web Developer</h2></span>
         <span><h2>Based in Melbourne, Australia</h2></span>
-        <span><h2>Recent Computer Science Graduate</h2></span>
+        <span><h2>CS Grad</h2></span>
         <span><h2>Fast Learner</h2></span>
         <span><h2>Passionate About Software</h2></span>
       </div>
     </div>
     <div class="photo-sec">
-      <img src="images/self-photo.png" alt="Photo of me">
+      <img src="images/self-photo.png" alt="Photo of Khin Liew">
       <a href="#scroll-contact">Contact Me</a>
     </div>
-  </div>
+  </section>
 
   <!-- About Section -->
-  <div class="about">
+  <section class="about">
     <h1 style="color:white">About Me</h1>
     <div class="about-wrapper">
       <p>
@@ -73,10 +81,10 @@
       <p>Python</p>
       <p>MS Power Platform</p>
     </div>
-  </div>
+  </section>
 
   <!-- Projects Section-->
-  <div class="projects-section">
+  <section class="projects-section">
     <div class="project-blurb">
       <h1>Projects</h1>
       <p>Building websites is how I best learn and improve. Here are some examples of projects I have worked on at uni and in my free time.</p>
@@ -107,7 +115,6 @@
 
       <!-- Alimi Project-->
       <div class="project-card">
-        <!-- <img src="images/alimi-ss.jpg" alt="Alimi Screenshot"> -->
         <video src="videos/alimi-demo.mp4" preload="auto" controls></video>
 
         <div class="card-blurb">
@@ -132,27 +139,6 @@
           <a class="project-link" href="https://alimi.herokuapp.com" target="_blank">View Live</a>
         </div>
       </div>
-  
-      <!-- CPU Scheduler -->
-      <!-- <div class="project-card">
-        <div class="screenshot">
-  
-        </div>
-        <div class="card-blurb">
-          <h2>
-            Process Scheduler
-          </h2>
-          <p>
-            A COMP30023 project from UniMelb, this C program simulates process scheduling within an operating system. 
-          </p>
-          <br>
-          <div class="skills-grid">
-            <p>C</p>
-          </div>
-          <br>
-          <a href="https://github.com/kvliew/process-scheduler" target="_blank">See GitHub Repo</a>
-        </div>
-      </div> -->
 
       <div class="project-card">
         <img src="images/tip-calculator.png" alt="Tip calculator screenshot">
@@ -178,10 +164,10 @@
   
     </div>
     <p style="padding:50px; color: white;">more to come...</p>
-  </div>
+  </section>
 
   <!-- Contact -->
-  <div class="contact" id="scroll-contact">
+  <section class="contact" id="scroll-contact">
     <h1>Contact Me</h1>
     <p>I can be contacted at:</p>
     <br>
@@ -198,13 +184,13 @@
         <input placeholder="example@email.com" id="field-2" type="email" name="email" />
         <p>Message</p>
         <textarea placeholder="Hello" name="message"></textarea>
-        <!-- <input placeholder="Hello" id="field-3" type="message" name="message" /> -->
         <p>
           <button type="submit">Submit</button>
         </p>
       </div>
     </form>
-  </div>
+  </section>
+</main>
 
   <!-- Footer -->
   <footer>
