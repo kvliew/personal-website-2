@@ -216,7 +216,7 @@ h1, h2 {
 }
 
 .skills-grid p {
-  /* border-style: solid; */
+  color: black;
   background-color: rgb(175, 145, 227);
   padding: 5px;
   margin: 0px 10px 10px 0;
