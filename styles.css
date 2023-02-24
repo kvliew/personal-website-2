@@ -19,6 +19,7 @@ p {
 a {
   color: white;
   font-family: 'Roboto', sans-serif;
+  transition: color 0.5s ease-out;
 }
 
 h1, h2 {
@@ -27,7 +28,8 @@ h1, h2 {
 
 /* Navigation Bar */
 .nav-bar {
-  background: rgba(0, 0, 0, 0.386);
+  background-color: #2F3E46;
+  opacity: 80%;
   padding: 20px;
   z-index: 100;
   position: fixed;
@@ -61,10 +63,8 @@ h1, h2 {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  padding: 100px;
-  height: 600px;
-  /* background-color: rgb(27, 8, 72); */
-  background-color: black;
+  height: 100vh;
+  background-color: #2F3E46;
 }
 
 .blurb {
@@ -73,7 +73,6 @@ h1, h2 {
   justify-content: center;
   vertical-align: middle;
   padding: 30px;
-  /* flex-grow: 0.5; */
 }
 
 .blurb h1, h3 {
@@ -142,12 +141,12 @@ h1, h2 {
 .photo-sec a {
   padding: 10px;
   border-radius: 30px;
-  border-style: groove;
-  background-color: hsl(234, 79%, 80%);
+  background-color: #cad2c5;
   font-family: 'Source Code Pro';
+  transition: background-color 0.5s ease-out;
 }
 .photo-sec a:hover {
-  border-color: white;
+  background-color: #686c65;
 }
 
 .photo-sec img {
@@ -157,32 +156,24 @@ h1, h2 {
   border-color: white;
 }
 
-.socials {
-  display: flex;
-  margin-top: 30px;
-}
-
-.socials a {
-  margin-right: 10px;
-}
-
 .hero a {
   color: black;
 }
 
 /* About Section */
 .about {
-  background: rgb(88, 83, 134);
+  background: #354F52;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 50px;
 }
 
 .about-wrapper {
   margin: 15px 0px; 
   color: white;
-  background: rgb(7, 12, 70);
-  box-shadow: inset 4px 4px 15px 0px #000000;
+  /* background: rgb(7, 12, 70); */
+  /* box-shadow: inset 4px 4px 15px 0px #000000; */
   /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,18,207,0.8015581232492998) 100%, rgba(10,10,102,0.738532913165266) 100%); */
   width: 40%;
   padding: 15px;
@@ -207,11 +198,14 @@ h1, h2 {
 
 /* Projects Section */
 .projects-section {
-  background: rgb(27, 8, 72);
+  background: #2F3E46;
 }
 
 .project-blurb {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
 }
 
@@ -267,7 +261,7 @@ h1, h2 {
 /* Contact Section */
 .contact {
   padding: 50px;
-  background-color: rgb(43, 40, 80);
+  background-color: #354F52;
 }
 
 .contact h1 {
@@ -305,23 +299,22 @@ textarea {
   padding: 10px;
   font-family: 'Source Code Pro';
   color: white;
-  border-style: groove;
-  background-color: rgb(29, 58, 138, 50%);
+  border-style: none;
+  background-color: #52796F;
   font-size: larger;
   border-radius: 10px;
+  transition: background-color 0.5s ease-out;
 }
 
 .contact button:hover {
-  border-color: white;
+  background-color: #2d433d;
 }
-
 
 /* Footer */
 footer {
   color: white;
-  background-color: black;
-  /* background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,29,215,1) 100%, rgba(10,10,102,0.738532913165266) 100%); */
+  background-color: #354F52;
+  text-align: center;
   padding: 20px 50px;
   font-family: 'Source Code Pro';
 }
@@ -336,7 +329,7 @@ footer a {
 }
 
 footer a:hover {
-  color: purple;
+  color: #eaf1f4;
 }
 
 @media screen and (max-width: 1000px) {
