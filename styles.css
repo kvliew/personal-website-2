@@ -181,7 +181,7 @@ h1, h2 {
   /* background: rgb(7, 12, 70); */
   /* box-shadow: inset 4px 4px 15px 0px #000000; */
   /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,18,207,0.8015581232492998) 100%, rgba(10,10,102,0.738532913165266) 100%); */
-  width: 40%;
+  width: 60%;
   padding: 15px;
 }
 
@@ -363,8 +363,14 @@ footer a:hover {
   .photo-sec img {
     width: 250px;
   }
+  .about {
+    padding: 20px 0;
+  }
   .about-wrapper {
-    width: 85%;
+    width: 100%;
+  }
+  .about .skills-grid {
+    justify-content: center;
   }
   .project-card img, video {
     min-height: 400px;
